@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: grey;
+    color: skyblue;
+}
+
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th {
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Course Styling */
+.course1 {
+    background-color: #ffd966;
+    color: #333333;
+}
+
+.course2 {
+    background-color: #80d4ff;
+    color: #333333;
+}
+
+.course3 {
+    background-color: #ff6666;
+    color: #ffffff;
+}
+
+.course4 {
+    background-color: #b3ffb3;
+    color: #333333;
+}
+
+.lab {
+    font-style: italic;
+}
+
+/* Print Mode Styling */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        font-family: 'Times New Roman';
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+    }
+
+    th {
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+    a {
+      color: white;   
+    }
+
+    .header {
+        font-family: Arial;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .Time {
+        background-color: lightslategray;
+        font-family: Arial;
+        color: black;
+    }
